@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.driverApp.testcases.login">
+        <methods>
+          <include name="changeVehicleVehicleAlreadyAssigned"/>
+          <include name="changeVehicleIvrConfirmationTrue"/>
+          <include name="testCaseSetup"/>
+          <include name="invalidPnumber"/>
+          <include name="changeVehicleIvrConfirmationFalse"/>
+          <include name="ivrConfirmationTrue"/>
+          <include name="vehicleMarkAsAbsent"/>
+          <include name="ivrConfirmationFalse"/>
+        </methods>
+      </class> <!-- com.driverApp.testcases.login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

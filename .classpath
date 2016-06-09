@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/commons-validator-1.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/java-client-3.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/selenium-java-2.47.1.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/jcommander.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/okhttp-3.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/tarun/Downloads/httpclient-4.4.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
