@@ -7,6 +7,7 @@ import com.drivervms.apicalls.*;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.html5.Location;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -71,6 +72,7 @@ public void testCaseSetup()throws  Exception
             String VehicleToSelect="RJ5TA0004";
             driver.scrollToExact(VehicleToSelect).click();
             Thread.sleep(5000);
+            ScreenOrientation orientation;
             driver.findElementById("app.goplus.in.myapplication.driver.qa:id/sign_in_button").click();
             String loginSuccessText="Your reporting schedule";
             WebDriverWait wait=new WebDriverWait(driver,120);
